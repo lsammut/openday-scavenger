@@ -1,0 +1,36 @@
+<html class="html">
+    <head>
+        <script src="/static/js/htmx.min.js"></script>
+        <script src="/static/js/json-enc.js"></script>
+
+        <link id="favicon" rel="icon" type="image/x-icon" href="/static/favicon.ico">
+
+        <title>Crossword Puzzle Generator</title>
+        <link rel="stylesheet" href="/static/css/crossword_generator/crosswordpuzzlegenerator.css">
+        <link rel="shortcut icon" 
+            href="https://mitchum.blog/wp-content/uploads/2019/05/favicon.png" />
+
+    </head>
+    <body>
+        <main>
+                <h3>Crossword Puzzle Generator</h3>
+                <h5>
+                    <a href="https://mitchum.blog/building-a-crossword-puzzle-generator-with-javascript/">Tutorial</a> |
+                    <a href="https://github.com/mmaynar1/games/tree/master/crossword-puzzle-generator">Github</a> |
+                    <a href="https://mitchum.blog/subscribe/">Something Really Good</a>
+                </h5>
+                <div id="startButton"> 
+                    <button class="button" type="button" onclick="createCrossWordPuzzle()">Generate Crossword Puzzle</button>
+                </div>
+        <div id="grid" class="grid"></div>
+        </main>   
+    </body>
+    <script type="text/javascript" src="/static/js/crossword_generator/words.js"></script>
+    <script type="text/javascript" src="/static/js/crossword_generator/word.js"></script>
+    <script type="text/javascript" src="/static/js/crossword_generator/crosswordpuzzle.js"></script>
+    <script type="text/javascript" src="/static/js/crossword_generator/crosswordpuzzlegenerator.js"></script>
+</html>
+
+// code from https://github.com/mmaynar1/games
+// see blog: https://mitchum.blog/game-tutorials/
+
